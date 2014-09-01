@@ -4,17 +4,17 @@ There are a plethora of Raspberry Pi garage door openers on the net.  I studied 
 
 This project uses the model B+ raspberry pi running debian wheezy (Raspian) to do the following functions as it relates to my garage:
 
-1. Monitor garage door state (open / closed) via a magnetic switch (http://www.amazon.com/gp/product/B0009SUF08/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+1. Monitor garage door state (open / closed) via a magnetic switch [Product Link](http://www.amazon.com/gp/product/B0009SUF08/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 
-2. Toggle the garage door to open or close it via a relay module (http://www.amazon.com/gp/product/B0057OC6D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
+2. Toggle the garage door to open or close it via a relay module [Product Link](http://www.amazon.com/gp/product/B0057OC6D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
 
-3. Monitor the temperature and humidity inside the garage via a DHT11 sensor (http://www.amazon.com/gp/product/B0066YD3GM/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1)
+3. Monitor the temperature and humidity inside the garage via a DHT11 sensor [Product Link](http://www.amazon.com/gp/product/B0066YD3GM/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1)
 
 4. Monitor the outdoor temperature via a JSON call to openweathermap.org
 
-5. Visual confirmation of the garage door state via a USB webcam.
+5. Visual confirmation of the garage door state via a USB webcam. [Known Supported Cams](http://elinux.org/RPi_USB_Webcams)
 
-All of these components are connected to the Raspberry Pi via USB or via the GPIO pins.  I leverage a breadboard for connections to the magnetic switch and the DHT11 temperature sensor.  
+All of these components are connected to the Raspberry Pi via USB or via the GPIO pins.  I leveraged a breadboard for connections to the magnetic switch and the DHT11 temperature sensor.  
 
 
 KEY PROJECT COMPONENTS
@@ -27,4 +27,4 @@ The project consists of the following primary software components:
 
 3. getGarageTemp - The python script for getting the readings from the DHT11 module.
 
-For more information for setup and configuration of the software components, please see the INSTALL.txt file.
+For more information for setup and configuration of the software components, please see the [Wiki](https://github.com/beckerben/GarageDoorRaspberryPi/wiki).
