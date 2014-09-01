@@ -12,7 +12,7 @@ This project uses the model B+ raspberry pi running debian wheezy (Raspian) to d
 
 4. Monitor the outdoor temperature via a JSON call to openweathermap.org
 
-5. Visual confirmation of the garage door state via a USB webcam. [Known Supported Cams](http://elinux.org/RPi_USB_Webcams)
+5. Visual confirmation of the garage door state via a USB webcam. [Known Supported Cams](http://elinux.org/RPi_USB_Webcams){:target="_blank"}
 
 All of these components are connected to the Raspberry Pi via USB or via the GPIO pins.  I leveraged a breadboard for connections to the magnetic switch and the DHT11 temperature sensor.  
 
