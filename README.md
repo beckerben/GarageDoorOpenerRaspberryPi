@@ -1,6 +1,6 @@
 PROJECT GOALS
 =================================================================================================
-There are a plethora of Raspberry Pi garage door openers on the net.  I studied these and decided to add my own flare based on the specific requirements I had in mind which.  Many of the other solutions were overly complex in terms of authentication and dependencies and they lacked one or more elements I was looking for, so I decided to roll my own.
+There are a plethora of Raspberry Pi garage door openers on the net.  I studied those and decided to add my own flare based on the specific requirements I had in mind.  Many of the other solutions were overly complex in terms of authentication and dependencies and they lacked one or more elements I was looking for, so I decided to roll my own.
 
 This project uses the model B+ raspberry pi running debian wheezy (Raspian) to do the following functions as it relates to my garage:
 
