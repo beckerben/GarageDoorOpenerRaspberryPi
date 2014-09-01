@@ -17,10 +17,17 @@ This project uses the model B+ raspberry pi running debian wheezy (Raspian) to d
 All of these components are connected to the Raspberry Pi via USB or via the GPIO pins.  I leveraged a breadboard for connections to the magnetic switch and the DHT11 temperature sensor.  
 
 ###Screenshots
-[Login Page](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/Login.png "Login Page")
-[Garage Status Page](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/GetGarageStatus.png "Garage Status Page")
+This is the output of the simple index.php page that presents the login dialog.
 
-[Installed Board](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/BoardOverview.jpg "Installed Picture")
+![Login Page](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/Login.png "Login Page")
+
+This is the output of the garage_status.php.
+
+![Garage Status Page](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/GetGarageStatus.png "Garage Status Page")
+
+Project components mounted to a piece of cardboard and secured via zipties, if you wanted to get crazy you could 3d print a custom case or use some plexi glass...a project for another day!
+
+![Installed Board](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/BoardOverview.jpg "Installed Picture")
 
 
 KEY PROJECT COMPONENTS
