@@ -29,15 +29,3 @@ Project components mounted to a piece of cardboard and secured via zipties, if y
 
 ![Installed Board](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/BoardOverview.jpg "Installed Picture")
 
-
-KEY PROJECT COMPONENTS
-=================================================================================================
-The project consists of the following primary software components:
-
-1. index.php = The login page, i used simple authentication to check for my garage code which is embedded in the index.php file.
-
-2. garage_status.php = This is the controlling page with inline PHP which shows the commands and current state of the door.  It sends commands for wiringpi, fswebcam and also calls the python script for getting the garage temperature and makes the JSON call for the outdoor temperature.
-
-3. getGarageTemp - The python script for getting the readings from the DHT11 module.
-
-For more information for setup and configuration of the software components, please see the [Wiki](https://github.com/beckerben/GarageDoorRaspberryPi/wiki).
