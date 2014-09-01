@@ -29,3 +29,4 @@ Project components mounted to a piece of cardboard and secured via zipties, if y
 
 ![Installed Board](https://github.com/beckerben/GarageDoorRaspberryPi/blob/master/misc/BoardOverview.jpg "Installed Picture")
 
+For more information for setup and configuration of the software components, please see the [Wiki](https://github.com/beckerben/GarageDoorRaspberryPi/wiki).
