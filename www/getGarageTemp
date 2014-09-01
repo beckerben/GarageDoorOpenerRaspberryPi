@@ -1,0 +1,12 @@
+#!/usr/bin/python
+import sys
+import Adafruit_DHT
+
+
+humidity, temperatureC = Adafruit_DHT.read_retry(11, 27)
+temperatureF = 9.0/5.0 * temperatureC + 32
+
+if humidity is not None and temperatureF is not None:
+        print 'Garage Temp {0:0}F,  Humidity {1:0}%'.format(int(temperatureF), int(humidity))
+else:
+        print 'Failed to get reading. Try again!'
